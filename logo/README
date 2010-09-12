@@ -7,7 +7,8 @@ Font   : Zekton
 
 
 The Zekton font is available in the ttf-larabie-straight package under
-Debian and Ubuntu in the non-free section. See  http://www.larabiefonts.com for more font.
+Debian and Ubuntu in the non-free section. See  http://www.larabiefonts.com
+for more information about the font.
 
 If you prefer do not use the font, then a curve version of the text is
 available in an hidden layer 'text-curve'.
