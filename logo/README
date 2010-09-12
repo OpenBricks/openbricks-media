@@ -10,5 +10,5 @@ The Zekton font is available in the ttf-larabie-straight package under
 Debian and Ubuntu in the non-free section. See  http://www.larabiefonts.com
 for more information about the font.
 
-If you prefer do not use the font, then a curve version of the text is
-available in an hidden layer 'text-curve'.
+If you prefer to not use the font, then a curve version of the text is
+available in the hidden layer 'text-curve'.
