@@ -388,10 +388,15 @@
        inkscape:collect="always" />
     <filter
        id="filter5791"
-       inkscape:label="Blur content"
-       inkscape:menu="Blurs"
-       inkscape:menu-tooltip="Blur the contents of objects, preserving the outline"
+       inkscape:label="Smooth edges"
+       inkscape:menu="Morphology"
+       inkscape:menu-tooltip="Smooth the outside of shapes and pictures without altering their contents"
        color-interpolation-filters="sRGB">
+      <feMorphology
+         id="feMorphology3006"
+         in="SourceGraphic"
+         operator="dilate"
+         radius="4" />
       <feColorMatrix
          id="feColorMatrix5793"
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
@@ -409,6 +414,34 @@
       <feComposite
          id="feComposite5799"
          in2="result91"
+         operator="in"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2996" />
+      <feGaussianBlur
+         id="feGaussianBlur2998"
+         stdDeviation="3"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3000"
+         in2="fbSourceGraphic"
+         operator="arithmetic"
+         k2="2"
+         k4="-1"
+         in="result1"
+         result="result2" />
+      <feColorMatrix
+         id="feColorMatrix3002"
+         values="0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 8 -6 "
+         result="result3" />
+      <feComposite
+         id="feComposite3004"
+         in2="result3"
+         in="fbSourceGraphic"
          operator="in" />
     </filter>
     <linearGradient
@@ -417,8 +450,8 @@
        id="linearGradient5809"
        x1="350.47238"
        y1="592.61804"
-       x2="-79.130768"
-       y2="344.58658"
+       x2="22.241108"
+       y2="402.01965"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-40,-26.429137)" />
     <filter
@@ -584,11 +617,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.67677646"
-     inkscape:cx="1145.7025"
-     inkscape:cy="262.20471"
+     inkscape:zoom="0.79012191"
+     inkscape:cx="559.2915"
+     inkscape:cy="217.60577"
      inkscape:document-units="px"
-     inkscape:current-layer="text5873-4"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:snap-global="true"
      objecttolerance="10000"
@@ -860,8 +893,8 @@
      style="display:inline">
     <path
        transform="translate(79.130771,-99.212576)"
-       style="opacity:0.25;fill:url(#linearGradient5809);fill-opacity:1;stroke:none;display:inline;filter:url(#filter5819)"
-       d="M 310.47238,566.18893 525.27396,442.17318 C 381.68911,453.48801 -35.873422,376.15787 -119.13077,318.15743 l 429.60315,248.0315 z"
+       style="opacity:0.25000000000000000;fill:url(#linearGradient5809);fill-opacity:1;stroke:none;display:inline;filter:url(#filter5819)"
+       d="M 310.47238,566.18893 525.27396,442.17318 C 411.84426,411.02357 227.72862,375.5905 -17.758892,375.5905 L 310.47238,566.18893 z"
        id="path5801"
        sodipodi:nodetypes="cccc" />
     <g
