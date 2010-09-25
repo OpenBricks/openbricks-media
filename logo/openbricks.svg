@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.47 r22583"
    sodipodi:docname="openbricks.svg"
-   inkscape:export-filename="openbricks.png"
-   inkscape:export-xdpi="74.99865"
-   inkscape:export-ydpi="74.99865">
+   inkscape:export-filename="/home/schroeterm/geexbox/openbricks-media/logo/openbricks-800.png"
+   inkscape:export-xdpi="41.704056"
+   inkscape:export-ydpi="41.704056">
   <title
      id="title2959">OpenBlocks</title>
   <defs
@@ -378,15 +378,6 @@
          offset="1"
          style="stop-color:#f96400;stop-opacity:0;" />
     </linearGradient>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:collect="always"
-       id="filter5731-4">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.8150928"
-         id="feGaussianBlur5733-0" />
-    </filter>
     <linearGradient
        gradientTransform="translate(-155.84562,93.897602)"
        y2="414.56689"
@@ -482,7 +473,7 @@
        inkscape:collect="always"
        xlink:href="#linearGradient5825"
        id="linearGradient5831"
-       x1="212.38565"
+       x1="89.641891"
        y1="118.70074"
        x2="273.75754"
        y2="118.70074"
@@ -665,14 +656,15 @@
        x2="429.60315"
        y2="435.82675"
        gradientUnits="userSpaceOnUse" />
-    <filter
+    <linearGradient
        inkscape:collect="always"
-       id="filter3826">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="2.1088691"
-         id="feGaussianBlur3828" />
-    </filter>
+       xlink:href="#linearGradient4030"
+       id="linearGradient3791"
+       x1="503.90207"
+       y1="251.57475"
+       x2="503.90207"
+       y2="535.03931"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -681,9 +673,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.55870056"
-     inkscape:cx="643.42949"
-     inkscape:cy="114.20964"
+     inkscape:zoom="0.79012191"
+     inkscape:cx="425.30999"
+     inkscape:cy="278.46517"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -1046,7 +1038,7 @@
       <path
          sodipodi:type="inkscape:box3dside"
          id="path3027"
-         style="fill:#ffb380;fill-rule:evenodd;stroke:none"
+         style="fill:url(#linearGradient3791);fill-rule:evenodd;stroke:none;fill-opacity:1"
          inkscape:box3dsidetype="5"
          d="M 289.10051,499.60625 350.47238,535.03932 565.27396,411.02357 503.90208,375.5905 z" />
       <path
@@ -1118,17 +1110,6 @@
        style="opacity:0.5;fill:url(#linearGradient4190);fill-opacity:1;stroke:none;display:inline;filter:url(#filter6103)"
        d="m 304.44347,349.0157 c 0,0 15.34296,8.85826 15.34296,8.85826 28.34986,-11.73226 51.29308,5.11344 76.71485,8.85827 L 335.1294,331.29916 304.44347,349.0157 z"
        id="path4170"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       transform="translate(79.130771,-99.212576)"
-       style="opacity:0.4;fill:url(#linearGradient5754);fill-opacity:1;stroke:none;display:inline;filter:url(#filter5731-4)"
-       d="m 289.1005,499.60625 46.02891,26.5748 61.37188,-35.43307 -46.02891,-26.5748 -61.37188,35.43307 z"
-       id="path5721-8"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:url(#linearGradient3820);stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;opacity:0.40000000000000002;filter:url(#filter3826)"
-       d="m 368.93041,400.69434 60.67274,35.13241 46.02891,-26.57481 -61.37188,-35.43307 -45.32977,26.87547 z"
-       id="path3812"
        sodipodi:nodetypes="ccccc" />
     <g
        transform="translate(79.130771,-99.212576)"
