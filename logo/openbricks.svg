@@ -398,7 +398,7 @@
          id="feMorphology3006"
          in="SourceGraphic"
          operator="dilate"
-         radius="4" />
+         radius="3.5" />
       <feColorMatrix
          id="feColorMatrix5793"
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
@@ -674,7 +674,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.79012191"
-     inkscape:cx="425.30999"
+     inkscape:cx="360.32866"
      inkscape:cy="278.46517"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -1203,7 +1203,7 @@
       <path
          sodipodi:type="inkscape:box3dside"
          id="path3031-8"
-         style="fill:url(#linearGradient3780);fill-rule:evenodd;stroke:none;fill-opacity:1.0"
+         style="fill:url(#linearGradient3780);fill-opacity:1;fill-rule:evenodd;stroke:none"
          inkscape:box3dsidetype="14"
          d="m 227.72862,287.00783 0,70.86614 214.80158,-124.01575 0,-70.86614 z" />
       <path
